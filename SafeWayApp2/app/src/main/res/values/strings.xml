@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">SafeWay App</string>
+
+    //Splash Screen
+    <string name="splashScreen">SafeWay</string>
+
+    //Tela Login
+    <string name="apresentacao">Seja Bem-vindo(a)!</string>
+    <string name="login">Realize seu Login aqui:</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="botaoLogin">LOGIN</string>
+    <string name="semCadastro">Não possui conta?</string>
+    <string name="cadastraAqui">Cadastre-se aqui!</string>
+
+    //Tela Cadastro
+    <string name="Cadastro">Área de Cadastro</string>
+    <string name="informar">Insira seus dados cadastrais!</string>
+    <string name="nomeUsuario">Nome do usúario:</string>
+    <string name="CPF">CPF:</string>
+    <string name="senhaCadastro">Criar senha:</string>
+    <string name="confirmarSenha">Confirmar senha:</string>
+    <string name="confirmarEmail">Confirmar email:</string>
+    <string name="dataDeNascimento">Data de nascimento:</string>
+    <string name="botaoCadastrar">CADASTRAR</string>
+    //dicas
+    <string name="dicaNome">Insira seu nome</string>
+    <string name="dicaCPF">123.456.789-01</string>
+    <string name="dicaConfirmarSenha">Repita sua senha</string>
+    <string name="dicaConfirmarEmail">Repita seu email</string>
+    <string name="dicaDTNascimento">01/01/2010</string>
+
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+    <string name="outro">Outro</string>
+
+    <string name="voltarLogin">Voltar</string>
+    <string name="title_activity_tela_principal">activity_tela_principal</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>
