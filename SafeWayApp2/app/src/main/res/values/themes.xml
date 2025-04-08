@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SafeWayApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.SafeWayApp" parent="Base.Theme.SafeWayApp" />
+
+    <style name="Theme.SafeWayApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/Azul</item> <!-- Deixa a barra de status com a mesma cor da Bar Action-->
+        <item name="android:windowLightStatusBar">true</item> <!-- Deixa os intens da barra de status pretos-->
+       <item name="colorPrimary">@color/SelecaoDoFragment</item>
+    </style>
+
+    <style name="Theme.SafeWayApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.SafeWayApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
