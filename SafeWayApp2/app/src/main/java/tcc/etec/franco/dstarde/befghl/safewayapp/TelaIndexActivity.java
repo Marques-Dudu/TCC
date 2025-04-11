@@ -40,6 +40,12 @@ public class TelaIndexActivity extends AppCompatActivity {
         binding = ActivityTelaIndexBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
+                //Verificando conexão com Internet
+        if (!isConnectedToInternet()) {
+            // Cria e exibe o AlertDialog
+            showNoInternetDialog();
+        }
+        
         setSupportActionBar(binding.appBarTelaIndex.toolbar);
 
         //linkando o a classe DrawerLayout do Java ao objeto drawerLayout do XML
@@ -99,6 +105,42 @@ public class TelaIndexActivity extends AppCompatActivity {
                 || super.onSupportNavigateUp();
     }
 
+        /**
+     * Método para verificar se o dispositivo está conectado à internet.
+     *
+     * @return true se estiver conectado à internet, false caso contrário.
+     */
+
+    //tradução função = estaConectadoNaInternet
+    private boolean isConnectedToInternet() {
+        ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+
+        // Verifica a conexão de rede
+        NetworkInfo activeNetwork = connectivityManager.getActiveNetworkInfo();
+
+        // Se a conexão não for nula e estiver conectada à internet
+        return activeNetwork != null && activeNetwork.isConnectedOrConnecting();
+    }
+
+    /**
+     * Exibe o AlertDialog para informar ao usuário que ele está sem internet.
+     */
+    // tradução variavel = mostrarDialogoSemInternet
+    private void showNoInternetDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Sem Conexão")
+                .setMessage("Você não está conectado à internet. O aplicativo será fechado.")
+                .setCancelable(false)  // Não permite que o usuário cancele
+                .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        // Fecha o aplicativo após o usuário confirmar
+                        finishAffinity(); // Fecha o app de forma definitiva
+                    }
+                });
+        // Exibe o dialog
+        builder.create().show();
+    }
 
     @SuppressLint("MissingSuperCall")
     @Override
