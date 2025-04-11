@@ -556,6 +556,6 @@ private void MostrarCaixaDeDialogo(View v) {
     @SuppressLint("MissingSuperCall")
     @Override
     public void onBackPressed() {
-        // vazio para bloquear
+        finish();
     }
 }
