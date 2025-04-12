@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "138906851168",
+    "project_id": "safeway-app-14b7f",
+    "storage_bucket": "safeway-app-14b7f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138906851168:android:7e81913528547abd763005",
+        "android_client_info": {
+          "package_name": "tcc.etec.franco.dstarde.befghl.safewayapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqe9M31tGSsVT21c9_HxLC0YXWt9khex4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
