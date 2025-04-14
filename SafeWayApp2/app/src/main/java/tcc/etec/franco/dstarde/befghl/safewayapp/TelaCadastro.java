@@ -580,10 +580,17 @@ private void MostrarCaixaDeDialogo(View v) {
         return textView;
     }
 
-//bloquear botão de voltar
+//confirmação botão de voltar
     @SuppressLint("MissingSuperCall")
     @Override
-    public void onBackPressed() {
-        // vazio para bloquear
+    public void onBackPressed() 
+    {
+         Toast.makeText(TelaCadastro.this, "Pressione voltar novamente para sair.", Toast.LENGTH_SHORT).show();
+        @SuppressLint("MissingSuperCall")
+        @Override
+        public void onBackPressed() 
+        {
+            finish();
+        }
     }
 }
