@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Permissao para a camera e galeria do usuario -->
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SafeWayApp"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".TelaEsqueciMinhaSenha"
+            android:exported="false" />
+        <activity
+            android:name=".TelaSettings"
+            android:exported="false" /> <!-- Configuracao para -->
+        <!-- Configuracoes de cache do mapa -->
+        <!--
+  <meta-data android:name="osmdroid.basePath" android:value="osmdroid" />
+        <meta-data android:name="osmdroid.cachePath" android:value="osmdroid/cache"/>
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDr9ujOcCUpoBIPl3b_hhDx7M_OtRDzB2g" />
+
+        <meta-data
+            android:name="com.google.firebase.auth.DEFAULT_WEB_CLIENT_ID"
+            android:value="@string/cliente_id"/>
+
+        <activity
+            android:name=".TelaUsoDeDados"
+            android:exported="false" />
+        <activity
+            android:name=".TelaChat"
+            android:exported="false" />
+        <activity
+            android:name=".TelaIndexActivity"
+            android:exported="false"
+            android:label="@string/title_activity_tela_index"
+            android:theme="@style/Theme.SafeWayApp.NoActionBar" />
+        <activity
+            android:name=".TermosDeUso"
+            android:exported="false" />
+        <activity
+            android:name=".PoliticaDePrivacidade"
+            android:exported="false" />
+        <activity
+            android:name=".TelaCadastro"
+            android:exported="false" />
+        <activity
+            android:name=".TelaLogin"
+            android:exported="false" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".ui.Autoridades.DetailActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+        <activity android:name=".ui.Autoridades.AutoridadesFragment"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ContainerFormsComponents">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:background">@drawable/container_forms_components</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <!--Estilo para deixar as bordas das imagesView arredondadas-->
+    <style name="Style_imagesView">
+
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+
+    </style>
+
+    <style name="Theme.SafewayApp" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Cor principal -->
+        <item name="colorPrimary">#3871c1</item>
+        <item name="colorPrimaryDark">#2f5ea3</item> <!-- tom um pouco mais escuro -->
+        <item name="colorAccent">#17DC35</item> <!-- opcional: verde para botões de ação -->
+
+        <!-- Texto e background -->
+        <item name="android:textColor">#000000</item>
+        <item name="android:windowBackground">#FFFFFF</item>
+    </style>
+
+</resources>

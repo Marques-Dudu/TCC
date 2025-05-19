@@ -1,0 +1,274 @@
+<resources>
+    <string name="app_name">SafeWay App</string>
+
+    //Splash Screen
+    <string name="splashScreen">SafeWay</string>
+
+    //Tela Login
+    <string name="apresentacao">Seja Bem-vindo(a)!</string>
+    <string name="login">Realize seu Login aqui:</string>
+    <string name="email">Email:</string>
+    <string name="senha">Senha:</string>
+    <string name="botaoLogin">LOGIN</string>
+    <string name="esqueciSenha"><u>Esqueci minha senha.</u></string>
+    <string name="botaoLoginComGoogle">Entrar com </string>
+    <string name="semCadastro">Não possui conta?</string>
+    <string name="cadastraAqui"><u>Cadastre-se aqui!</u></string>
+    <string name="cliente_id">138906851168-go13n79b5qq78a82e6f8bji3gvi2pcld.apps.googleusercontent.com</string>
+
+    //Tela Cadastro
+    <string name="Cadastro">Área de Cadastro</string>
+    <string name="informar">Insira seus dados cadastrais!</string>
+    <string name="botaoCadastrar">CADASTRAR</string>
+    <string name="porqueDados"><u>Para que serve meus dados?</u></string>
+    //dicas
+    <string name="dicaNome">Insira seu nome</string>
+    <string name="dicaTelefone">Insira seu número de celular</string>
+    <string name="dicaConfirmarSenha">Repita sua senha</string>
+    <string name="dicaDTNascimento">Insira sua data de nascimento clicando no ícone</string>
+    <string name="dicaEmail">Insira seu email:</string>
+    <string name="dicaSenha">Crie uma senha:</string>
+    <string name="voltarLogin">Voltar</string>
+    <string name="title_activity_tela_principal">activity_tela_principal</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+
+    // Tela Index
+    <string name="Usuario">Usuario: </string>
+    <string name="MenuMapa">Mapa</string>
+    <string name="MenuChat">Chat</string>
+
+    //Tela Esqueci Minha Senha
+    <string name="emailParaLinkDeRecuperacao">Digite aqui o email desejado:</string>
+    <string name="informarEmailRecuperacao">Informe abaixo o email para \n enviarmos o link de recuperação de senha</string>
+    <string name="cumprimentoTelaEsqueciSenha">Olá!</string>
+    <string name="apresentacaoTelaEsqueciSenha">Estamos aqui para te ajudar a\n redefinir sua senha.</string>
+    <string name="explicandoTelaLoginSenha">Para redefinirmos sua senha, iremos enviar um email com um link de redefinição de senha para você.\n</string>
+    <string name="RegrasLinkDeRecuperação">Para não ocorrer erros, certifique-se que:\n
+        • O email informado é válido;\n
+        • O email informado está cadastrado.
+    </string>
+    <string name="mensagemAmigavelLinkRecuperacao">Vamos Lá?!</string>
+    <string name="btnEnviarLinkrecuperacao">Enviar Email de Recuperação.</string>
+
+
+    //Termos de uso e Politicas de Privacidade
+    <string name="arrastaPraCima">Deslize para cima para continuar lendo.</string>
+    //Termo de Uso
+    <string name="TituloTermosDeUso">Termos de Uso</string>
+    <string name="TermosDeUsoCompletoTeste">TERMO DE USO
+\n
+Última Atualização: [Data]
+\n
+Bem-vindo ao [Nome do Aplicativo] (doravante "Aplicativo", "Nós", "Nosso", "Nos"), um serviço disponibilizado pela [Nome da Empresa], uma empresa registrada sob as leis do [País]. Este documento tem como objetivo estabelecer os Termos e Condições de uso ("Termos de Uso") que regem a utilização do Aplicativo. Ao acessar ou utilizar nosso Aplicativo, você concorda em cumprir e estar vinculado a estes Termos de Uso.
+\n
+1. DEFINIÇÕES
+\n
+1.1 Usuário: Qualquer pessoa que acesse ou use o Aplicativo, seja para fins pessoais ou comerciais.
+\n
+1.2 Serviços: Os serviços fornecidos pelo Aplicativo, incluindo, mas não se limitando a, [descrever brevemente os serviços do aplicativo].
+\n
+1.3 Conteúdo: Qualquer informação, texto, gráficos, imagens, vídeos, software, sons ou outros materiais gerados, fornecidos ou disponibilizados pelo Aplicativo.
+\n
+2. ACEITAÇÃO DOS TERMOS
+\n
+2.1 O uso do Aplicativo está sujeito à sua aceitação e conformidade com estes Termos de Uso. Ao acessar ou utilizar o Aplicativo, você concorda com os Termos de Uso descritos abaixo.
+\n
+2.2 Se você não concordar com qualquer uma das condições estabelecidas, você não poderá utilizar os serviços do Aplicativo.
+\n
+3. MODIFICAÇÃO DOS TERMOS DE USO
+\n
+3.1 Reservamo-nos o direito de, a qualquer momento, modificar ou atualizar estes Termos de Uso. Quaisquer modificações serão publicadas no Aplicativo e entrarão em vigor imediatamente após a publicação.
+\n
+3.2 É sua responsabilidade revisar os Termos de Uso periodicamente para se manter atualizado sobre quaisquer mudanças. O uso contínuo do Aplicativo após as alterações constitui sua aceitação das alterações.
+\n
+4. CADASTRO E CONTA DO USUÁRIO
+\n
+4.1 Para acessar determinados recursos do Aplicativo, você poderá ser solicitado a criar uma conta de usuário. Ao criar uma conta, você concorda em fornecer informações precisas, completas e atualizadas sobre você.
+\n
+4.2 Você é responsável por manter a confidencialidade de sua conta e senha e por todas as atividades que ocorram em sua conta.
+\n
+4.3 Caso você descubra qualquer uso não autorizado de sua conta, deverá notificar-nos imediatamente.
+\n
+5. LICENÇA DE USO
+\n
+5.1 Concedemos a você uma licença limitada, não exclusiva, intransferível e revogável para usar o Aplicativo para fins pessoais ou comerciais, de acordo com estes Termos de Uso.
+\n
+5.2 Você não poderá copiar, modificar, distribuir, vender, alugar, sublicenciar ou criar trabalhos derivados do Aplicativo, sem a nossa permissão expressa por escrito.
+\n
+6. OBRIGAÇÕES DO USUÁRIO
+\n
+6.1 O Usuário concorda em usar o Aplicativo de maneira legal, ética e responsável.
+\n
+6.2 O Usuário não pode:
+\n
+Utilizar o Aplicativo para fins ilegais, fraudulentos ou prejudiciais.
+\n
+Interferir nos servidores ou redes do Aplicativo.
+\n
+Violar qualquer lei local, estadual, nacional ou internacional aplicável.
+\n
+Tentar acessar ou obter informações de maneira não autorizada.
+\n
+7. PRIVACIDADE E PROTEÇÃO DE DADOS
+\n
+7.1 Sua privacidade é importante para nós. O uso de seus dados pessoais está sujeito à nossa Política de Privacidade, que é parte integrante destes Termos de Uso.
+\n
+7.2 Ao usar o Aplicativo, você concorda com a coleta, uso e compartilhamento de seus dados pessoais conforme descrito em nossa Política de Privacidade.
+\n
+8. PROPRIEDADE INTELECTUAL
+\n
+8.1 Todos os direitos de propriedade intelectual sobre o Aplicativo, incluindo, mas não se limitando a, software, código-fonte, logotipos, ícones, marcas registradas e conteúdos, são de nossa propriedade ou licenciados a nós.
+\n
+8.2 O uso do Aplicativo não concede ao Usuário nenhum direito sobre a propriedade intelectual do Aplicativo, exceto conforme explicitamente permitido por estes Termos de Uso.
+\n
+9. ISENÇÃO DE RESPONSABILIDADE
+\n
+9.1 O Aplicativo é fornecido "no estado em que se encontra", sem garantias de qualquer tipo, expressas ou implícitas. Não garantimos que o Aplicativo será ininterrupto ou livre de erros.
+\n
+9.2 Não seremos responsáveis por quaisquer danos diretos, indiretos, incidentais, especiais ou consequenciais decorrentes do uso ou da impossibilidade de uso do Aplicativo, incluindo, mas não se limitando a, perda de dados ou lucros.
+\n
+10. LIMITAÇÃO DE RESPONSABILIDADE
+\n
+10.1 Nossa responsabilidade total, seja por contrato, ato ilícito ou qualquer outro motivo, em relação ao uso do Aplicativo, está limitada ao valor total pago por você (se houver) pelo uso do Aplicativo nos últimos 12 meses.
+\n
+11. ENCERRAMENTO E SUSPENSÃO
+\n
+11.1 Podemos suspender ou encerrar sua conta a qualquer momento, sem aviso prévio, se acreditarmos que você violou qualquer um dos termos e condições descritos nestes Termos de Uso.
+\n
+11.2 Após o encerramento ou suspensão de sua conta, todas as disposições dos Termos de Uso que, por sua natureza, devam sobreviver, continuarão em vigor, incluindo, mas não se limitando a, disposições sobre propriedade intelectual, isenção de responsabilidade e limitações de responsabilidade.
+\n
+12. LEGISLAÇÃO APLICÁVEL E FORO
+\n
+12.1 Estes Termos de Uso são regidos pelas leis do [País], sem considerar seus conflitos de princípios legais.
+\n
+12.2 Qualquer disputa decorrente ou relacionada a estes Termos de Uso será resolvida nos tribunais competentes da [Cidade], [Estado], [País].
+\n
+13. DISPOSIÇÕES GERAIS
+\n
+13.1 Se qualquer disposição destes Termos de Uso for considerada inválida ou inexequível, as disposições restantes permanecerão em pleno vigor e efeito.
+\n
+13.2 Estes Termos de Uso constituem o acordo completo entre você e nós em relação ao uso do Aplicativo, substituindo qualquer acordo anterior ou contemporâneo, verbal ou escrito, relativo ao mesmo assunto.
+\n
+14. CONTATO
+\n
+14.1 Se você tiver dúvidas sobre estes Termos de Uso, por favor, entre em contato conosco pelo e-mail: [e-mail de contato].</string>
+
+    //Politica de privacidade
+    <string name="TituloPoliticaDePrivacidade">Política de Privacidade</string>
+
+    <string name="PoliticaDePrivacidadeCompletaTeste">POLÍTICA DE PRIVACIDADE \n
+
+Última Atualização: [Data] \n
+
+A [Nome da Empresa], responsável pelo [Nome do Aplicativo] (doravante "Aplicativo", "Nós", "Nosso", "Nos"), respeita sua privacidade e está comprometida em proteger suas informações pessoais. Esta Política de Privacidade explica como coletamos, usamos, armazenamos e protegemos suas informações quando você utiliza nosso Aplicativo. Ao acessar ou usar o Aplicativo, você concorda com os termos desta Política de Privacidade.
+\n
+1. INFORMAÇÕES QUE COLETAMOS
+\n
+1.1 Informações Pessoais: Quando você cria uma conta ou usa determinados recursos do Aplicativo, podemos coletar informações pessoais, como nome, e-mail, número de telefone, endereço, e outras informações fornecidas por você.
+\n
+1.2 Informações de Uso: Podemos coletar informações sobre o uso que você faz do Aplicativo, como dados de login, histórico de atividades, interações dentro do Aplicativo, tipo de dispositivo, endereço IP, e informações sobre seu comportamento no Aplicativo.
+\n
+1.3 Cookies e Tecnologias Semelhantes: Utilizamos cookies e outras tecnologias de rastreamento para melhorar a experiência do usuário, analisar o uso do Aplicativo e personalizar o conteúdo. Os cookies podem coletar informações sobre o dispositivo e a navegação do usuário, como tipo de dispositivo, páginas visitadas, e preferências.
+\n
+2. COMO UTILIZAMOS SUAS INFORMAÇÕES
+\n
+2.1 Para fornecer e melhorar nossos serviços: Usamos as informações coletadas para fornecer os serviços do Aplicativo, melhorar a experiência do usuário e responder às suas necessidades.
+\n
+2.2 Para comunicação: Podemos usar suas informações de contato para enviar notificações importantes, atualizações sobre o Aplicativo, promoções ou outras informações relacionadas ao serviço. Você pode optar por não receber comunicações promocionais a qualquer momento.
+\n
+2.3 Para personalização e marketing: Podemos usar suas informações para personalizar o conteúdo que você vê e para enviar ofertas ou recomendações com base em suas preferências e comportamentos de uso.
+\n
+2.4 Para segurança: Utilizamos suas informações para monitorar e proteger a segurança do Aplicativo, detectar fraudes ou atividades suspeitas, e garantir a integridade de nossa plataforma.
+\n
+3. COMO COMPARTILHAMOS SUAS INFORMAÇÕES
+\n
+3.1 Com prestadores de serviços: Podemos compartilhar suas informações com empresas terceirizadas que prestam serviços em nosso nome, como hospedagem de dados, análise de dados, marketing, e suporte ao cliente. Esses prestadores de serviços são contratualmente obrigados a proteger suas informações pessoais e usá-las apenas para os fins para os quais foram contratados.
+\n
+3.2 Com autoridades legais: Podemos compartilhar suas informações pessoais quando exigido por lei ou se acreditarmos que é necessário para: (i) cumprir com uma obrigação legal, (ii) proteger os direitos e segurança de nossos usuários, ou (iii) investigar fraudes ou outras atividades ilegais.
+\n
+3.3 Transferência de ativos: Caso nossa empresa seja envolvida em uma fusão, aquisição, venda de ativos ou reestruturação, suas informações pessoais poderão ser transferidas como parte do processo.
+\n
+4. ARMAZENAMENTO E SEGURANÇA DAS INFORMAÇÕES
+\n
+4.1 Segurança: Adotamos medidas de segurança adequadas para proteger suas informações pessoais contra acesso não autorizado, uso indevido, alteração ou destruição. No entanto, nenhuma transmissão de dados pela internet é completamente segura, e não podemos garantir a segurança absoluta de seus dados.
+\n
+4.2 Armazenamento de dados: Suas informações pessoais serão armazenadas enquanto forem necessárias para fornecer os serviços do Aplicativo e cumprir com nossas obrigações legais. Após esse período, suas informações serão deletadas ou anonimizadas, conforme necessário.
+\n
+5. SEUS DIREITOS
+\n
+5.1 Acesso e correção: Você tem o direito de acessar as informações pessoais que mantemos sobre você e corrigir quaisquer dados imprecisos ou incompletos.
+\n
+5.2 Exclusão de dados: Você pode solicitar a exclusão de suas informações pessoais a qualquer momento. No entanto, note que a exclusão de alguns dados pode afetar sua capacidade de continuar a usar certos recursos do Aplicativo.
+\n
+5.3 Retirada do consentimento: Quando o uso de suas informações pessoais for baseado em seu consentimento, você pode retirá-lo a qualquer momento, sem afetar a legalidade do uso anterior.
+\n
+5.4 Portabilidade de dados: Em alguns casos, você tem o direito de solicitar uma cópia das suas informações pessoais em um formato estruturado, de uso comum e legível por máquina, e transferir esses dados para outro controlador.
+\n
+5.5 Oposição ao tratamento de dados: Você tem o direito de se opor ao processamento de suas informações pessoais em determinadas circunstâncias, como para fins de marketing direto.
+\n
+6. TRANSFERÊNCIAS INTERNACIONAIS DE DADOS
+\n
+6.1 Em alguns casos, suas informações pessoais podem ser transferidas e armazenadas fora do país em que você reside, incluindo para países que não oferecem o mesmo nível de proteção de dados. Ao usar o Aplicativo, você concorda com essa transferência e processamento de seus dados pessoais.
+\n
+7. POLÍTICA DE COOKIES
+\n
+7.1 O que são cookies? Cookies são pequenos arquivos de texto que são armazenados em seu dispositivo quando você visita um site ou usa um aplicativo. Usamos cookies para melhorar a funcionalidade do Aplicativo, analisar o uso do serviço e personalizar sua experiência.
+\n
+7.2 Como controlar cookies? Você pode controlar o uso de cookies por meio das configurações do seu navegador ou dispositivo. No entanto, a desativação de alguns cookies pode afetar sua experiência com o Aplicativo.
+\n
+8. MUDANÇAS NA POLÍTICA DE PRIVACIDADE
+\n
+8.1 Podemos atualizar esta Política de Privacidade periodicamente. Quando houver alterações significativas, notificaremos você por meio do Aplicativo ou por e-mail. A versão mais recente da Política de Privacidade estará sempre disponível no Aplicativo, e a data da última atualização será indicada no início do documento.
+\n
+9. CONTATO
+\n
+9.1 Se você tiver dúvidas sobre esta Política de Privacidade ou sobre como tratamos seus dados pessoais, entre em contato conosco por meio do e-mail: [e-mail de contato].</string>
+
+
+    //Tela Sobre O Uso de Dados
+    <string name="deslizarCima">Se necessário, arraste a tela para cima.</string>
+    <string name="boas_vindas">Olá! Seja bem-vindo(a)!</string>
+
+    <string name="introducao_dados">
+    Antes de começarmos, queremos ser 100% transparentes com você sobre o uso dos seus dados. A sua privacidade e segurança são prioridades pra gente, e todas as informações que você fornecer serão usadas exclusivamente para melhorar sua experiência no nosso app.
+</string>
+
+    <string name="titulo_dados">Por que precisamos dos seus dados?</string>
+
+    <string name="nome_dado">
+    🧑 Nome:\n- Usado para que outros usuários possam te identificar com mais facilidade.\n- Também nos ajuda a localizar sua conta com mais rapidez caso você entre em contato com o suporte.
+    </string>
+    <string name="data_nascimento_dado">
+    🎂 Data de nascimento:\n- Serve para verificarmos se você tem idade suficiente para utilizar o app de acordo com os nossos Termos de Uso.
+    </string>
+    <string name="telefone_dado">
+    📞 Telefone:\n- Usado como método de login e autenticação via SMS.\n- Também pode ser utilizado para você adicionar contatos ou ser adicionado como contato por outras pessoas.
+    </string>
+    <string name="email_dado">
+    📧 E-mail:\n- Serve como uma alternativa de login e autenticação.\n- Será utilizado para recuperação de senha e comunicação em casos de suporte técnico ou avisos importantes.
+    </string>
+    <string name="senha_dado">
+    🔒 Senha:\n- Utilizada exclusivamente para garantir a segurança da sua conta e proteger o acesso aos seus dados.
+    </string>
+    <string name="agradecimento">Obrigado por confiar na gente! 💙</string>
+    //Fim da tela Sobre o Uso de Dados
+
+
+    <string name="title_activity_tela_index">TelaIndexActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="Autoridades">Autoridades</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

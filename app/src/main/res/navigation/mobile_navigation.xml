@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/Menu_Map">
+
+    <fragment
+        android:id="@+id/Menu_Map"
+        android:name="tcc.etec.franco.dstarde.befghl.safewayapp.ui.maps.MapsFragment"
+        android:label="@string/MenuMapa"
+        tools:layout="@layout/fragment_maps" />
+
+    <fragment
+        android:id="@+id/Menu_Autoridades"
+        android:name="tcc.etec.franco.dstarde.befghl.safewayapp.ui.Autoridades.AutoridadesFragment"
+        android:label="@string/Autoridades"
+        tools:layout="@layout/activity_main_autoridades"/>
+
+</navigation>

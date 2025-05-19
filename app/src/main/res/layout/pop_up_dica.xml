@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/popup_background"
+    android:padding="8dp"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A senha deve conter no mínimo: \n 8 ou mais caracteres;\n Uma letra maiúscula;\n Uma letra minúscula;\n Um número;\n Um caracter especial (!, @, #, etc).\n Clique novamente na caixa para criar sua senha."
+        android:textColor="#000000"
+        android:textSize="14sp" />
+</LinearLayout>
